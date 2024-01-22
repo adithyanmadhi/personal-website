@@ -63,8 +63,16 @@
             font-size: 24px; 
         }
 
-        .social-links a:hover {
-            color: #000;
+        /* Media Query for Mobile */
+        @media screen and (max-width: 600px) {
+            .social-links {
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+            }
+
+            .social-links a {
+                margin: 5px;
+            }
         }
 
         .address-section {
@@ -91,41 +99,32 @@
         </ul>
     </header>
 
-    
     <section>
         <h2>About Me</h2>
         <p>Hello! I'm Adithyan, a mechanical engineer with a passion for technology and a strong desire to make a mark in the IT field. My journey began in the world of mechanical engineering, where I honed problem-solving skills and learned to think critically.</p>
     </section>
 
-    
     <section>
         <h2>Skills</h2>
         <p>HTML, CSS.</p>
     </section>
 
-    
     <section>
         <h2>Projects</h2>
         <p>Designed simple email templates using HTML and CSS.</p>
     </section>
 
-    
     <section>
         <h2>Contact</h2>
         <p>Phone: +91 7012260905</p>
     </section>
 
-    
     <div class="address-section">
         <h2>My Address</h2>
         <p>Madhavanivas, Punkunnam PO</p>
         <p>Thrissur, Kerala</p>
     </div>
 
-    
     <footer>
-        &copy; 2024 Adithyan M. All rights reserved. | <a href="https://github.com/adithyanmadhi/your-website-repo" target="_blank">GitHub Repository</a>
-    </footer>
+        &copy; 2024 Adithyan M. All rights reserved. | <a href="https://github.com/adithyanmadhi/your-website-repo" target="_blank">GitHub Repository</a
 
-</body>
-</html>
